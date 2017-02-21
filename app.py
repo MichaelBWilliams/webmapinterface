@@ -16,12 +16,18 @@ def home():
 #        return "Hello Boss!  <a href='/logout'>Logout</a>"
 
 @app.route('/mapdownload')
-
 def mapdownload():
     if not session.get('logged_in'):
        return render_template('login.html')
     else:
         return render_template('mapDownloads.html')
+      
+@app.route('/about')
+def about():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('about.html')
 
  
 @app.route('/login', methods=['POST'])

@@ -1,20 +1,41 @@
 body {
-  min-height: 1000px;
+  min-height: 500px;
   padding-top: 50px;
 }
 
 header {
   text-align: center;
   background: #efefef;
-  color: #464646;
-  padding-top: 40px;
+  margin-top: 20px;
+  padding-bottom: 25px;
   margin-bottom: 20px;
   min-height: 200px;
-
 }
 .welcome h1 {
   display: block;
-  text-transform: uppercase;
   font-weight: 700;
-  font-size: 5em;
+  font-size: 6em;
+  padding-bottom: 20px;
+}
+.frontpage{
+  text-align: center;
+  padding-top: 10px;
+}
+.logo {
+  font-size: 200px;
+  color: #a2a2a2;
+}
+.about {
+  padding: 40px;
+}
+.about h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.about h4 {
+  margin-bottom: 30px;
+}
+.about p {
+  margin-bottom: 30px;
 }
