@@ -28,6 +28,20 @@ def about():
        return render_template('login.html')
     else:
         return render_template('about.html')
+      
+@app.route('/contact')
+def contact():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('contact.html')
+      
+@app.route('/mapviewer')
+def mapviewer():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('mapviewer.html')
 
  
 @app.route('/login', methods=['POST'])
