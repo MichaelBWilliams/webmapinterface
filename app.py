@@ -6,6 +6,7 @@ from tabledef import *
 engine = create_engine('sqlite:///tutorial.db', echo=True)
  
 app = Flask(__name__)
+app.secret_key = os.urandom(12)
  
 @app.route('/')
 def home():
@@ -68,5 +69,8 @@ def logout():
 
  
 if __name__ == "__main__":
-    app.secret_key = os.urandom(12)
+#The following line works for local. Uncomment for local only  
     app.run(debug=True,host='0.0.0.0', port=4000)
+#The following line is for app.py to run on EC2 instance.
+#   app.run(debug=True)
+
