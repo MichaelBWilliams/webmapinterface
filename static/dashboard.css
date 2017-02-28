@@ -144,10 +144,13 @@ body {
   margin-top: -50px; /*same height as header*/
   visibility: hidden;
 }
+.theme-row {
+  margin-top: 30px;
+}
 
 .themes h3 {
   padding-bottom: px;
-  padding-top: 10px;
+  padding-top: px;
 }
 
 .second-themes {

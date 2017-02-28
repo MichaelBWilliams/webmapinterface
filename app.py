@@ -30,6 +30,89 @@ def mapdownload():
     else:
         return render_template('mapDownloads.html')
       
+#country specific download pages
+
+
+@app.route('/mapdownload/kenya')
+def kenya():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('kenya.html')
+      
+@app.route('/mapdownload/malawi')
+def malawi():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('malawi.html')
+      
+@app.route('/mapdownload/tanzania')
+def tanzania():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('tanzania.html')
+      
+@app.route('/mapdownload/uganda')
+def uganda():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('uganda.html')
+      
+@app.route('/mapdownload/zambia')
+def zambia():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('zambia.html')
+      
+@app.route('/mapdownload/cambodia')
+def cambodia():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('cambodia.html')
+      
+@app.route('/mapdownload/myanmar')
+def myanmar():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('myanmar.html')
+      
+@app.route('/mapdownload/philippines')
+def philippines():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('philippines.html')
+      
+@app.route('/mapdownload/srilanka')
+def srilanka():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('srilanka.html')
+      
+@app.route('/mapdownload/ecuador')
+def ecuador():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('ecuador.html')
+      
+@app.route('/mapdownload/honduras')
+def honduras():
+    if not session.get('logged_in'):
+       return render_template('login.html')
+    else:
+        return render_template('honduras.html')
+      
+# end of 11 country pages
+      
+      
 @app.route('/about')
 def about():
     if not session.get('logged_in'):
