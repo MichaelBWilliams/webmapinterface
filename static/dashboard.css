@@ -115,17 +115,20 @@ body {
   display: inline-block;
   }
 .goto {
-    padding-left: 30px;
-    margin-bottom: 50px;
+  padding-left: 20px;
   }
 .bold {
-  font-weight: 600;
+  font-weight: 500;
 }
 .overview {
-  margin-bottom: 100px;
+  padding-top: 30px;
+  
+  
 }
 .overview h1{
   margin-bottom: 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
 }
 .overview p {
   font-size: 1.2em;
@@ -137,8 +140,37 @@ body {
 /* Fixes issue of fixed navbar covering content --> http://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
 .anchor{
   display: block;
-  height: 100px; /*same height as header*/
-  margin-top: -100px; /*same height as header*/
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
   visibility: hidden;
 }
+
+.themes h3 {
+  padding-bottom: px;
+  padding-top: 10px;
+}
+
+.second-themes {
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+.second-themes p {
+  padding-top: 15px;
+}
+
+.thumbnail {
+  width: 400px;
+  margin: 0px auto;
+  position: relative
+}
+
+
+
+
+
+
 
