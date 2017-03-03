@@ -22,5 +22,6 @@ class User(Base):
         self.username = username
         self.password = password
  
-# create tables
+#create tables
+
 Base.metadata.create_all(engine)
