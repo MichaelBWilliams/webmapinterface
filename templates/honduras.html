@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>Ecuador Map Catalog</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/mapDownloads">Map Downloads</a></li>
+            <li class="active"><a href="/mapdownload">Map Downloads</a></li>
             <li><a href="/mapviewer">Map Viewer</a></li>
             
             <!--<li class="dropdown">
@@ -78,11 +78,12 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li class="region">Download Selections</li>
+            <li><a href="/mapdownload">Overview</a></li>
           </ul>
           <ul class="nav nav-sidebar">
             <li class="region">Africa</li>
-            <li><a href="/mapdownload/kenya">Kenya</a></li>
+            <li><a href="mapdownload/kenya">Kenya</a></li>
             <li><a href="/mapdownload/malawi">Malawi</a></li>
             <li><a href="/mapdownload/tanzania">Tanzania</a></li>
             <li><a href="/mapdownload/uganda">Uganda</a></li>
@@ -98,14 +99,20 @@
           <ul class="nav nav-sidebar">
             <li class="region">Latin America</li>
             <li><a href="/mapdownload/ecuador">Ecuador</a></li>
-            <li><a href="/mapdownload/honduras">Honduras</a></li>
+            <li class="active"><a href="/mapdownload/honduras">Honduras<span class="sr-only">(current)</span></a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header"><span class="glyphicon glyphicon-download-alt"></span>&nbsp Honduras Map Catalog</h1>
+          <p>*Upcoming map atlases.</p>
+          
+          </div>
         </div>
       </div>
-    </div>
+    
+      
+
+
 
     
   
