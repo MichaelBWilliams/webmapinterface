@@ -233,7 +233,7 @@ body {
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 7px 14px;
+  /*padding: 7px 14px;*/
   font-size: 1.3em;
   color: #fff;
   border: 1px solid #fff;
